@@ -1,0 +1,16 @@
+{
+  "name": "sqlite3-crud-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write **/*.js"
+  },
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
