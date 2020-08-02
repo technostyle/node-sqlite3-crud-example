@@ -21,7 +21,7 @@ db.serialize(async () => {
 
   db.each(
     `UPDATE post SET text = ? WHERE text = ?;`, 
-    ['coitus', 'sex'], 
+    ['first updated post', 'first post'], 
     (err, rows) => console.log(err || rows)
   );
 
